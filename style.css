@@ -1,3 +1,33 @@
 :root {
   --bs-font-sans-serif: "Times New Roman";
 }
+
+.hero {
+  background: rgba(200, 0, 0, 0.5);
+  background-image: url("imgs/landscape_1600.webp");
+  min-height: 70vh;
+  background-size: cover;
+  background-position: 60% 0;
+  background-blend-mode: overlay;
+}
+
+.hero h1 {
+  margin-top: calc(35vh);
+  transform: translateY(-50%);
+}
+
+.hero-2 {
+  background-image: url("imgs/landscape_1600.webp");
+  min-height: 70vh;
+  background-size: cover;
+  background-position: 60% 0;
+  background-blend-mode: overlay;
+}
+
+.hero-2 h1 {
+  background: rgba(50, 50, 50, 0.6);
+}
+
+.h-70 {
+  height: 70vh;
+}
