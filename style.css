@@ -12,7 +12,7 @@
 }
 
 .hero h1 {
-  margin-top: calc(35vh);
+  margin-top: 35vh;
   transform: translateY(-50%);
 }
 
